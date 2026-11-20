@@ -15,15 +15,15 @@ O El Nino é um fenômeno que demonstra um aquecimento anômalo das águas do pa
 
 ## Anomalia da temperatura do Pacífico <!--{ as="img" mode="tour" style="object-fit: contain; background: #ffffff;" }-->
 
-### <!--{ src="/assets/oisst/oisst_anom_2026-07-01.png" }-->
+### <!--{ src="assets/oisst/oisst_anom_2026-07-01.png" }-->
 #### Julho de 2026 e os primeiros sinais do El Nino
 A faixa vermelha ao longo do Equador mostra águas até 3 °C mais quentes que o normal climatológica. Esse desvio já era esperado pelos cientistas que vinham alertado um El Niño sem precedentes. 
 
-### <!--{ src="/assets/oisst/oisst_anom_2026-09-01.png" }-->
+### <!--{ src="assets/oisst/oisst_anom_2026-09-01.png" }-->
 #### Setembro de 2026 demonstra um fortalecimento do fenômeno.
 Como demonstrado na imagem, retirada do monitoramento do NOAA, há um aumento na área superficial do oceano índico onde se é mensurado o fênomeno. Esse aumento é tanto em largura quanto em intensidade, com grande parte das águas já 3°C acima que as séries históricas.
 
-### <!--{ src="/assets/oisst/oisst_anom_2026-11-02.png" }-->
+### <!--{ src="assets/oisst/oisst_anom_2026-11-02.png" }-->
 #### Novembro de 2026
 Grande parte do oceano índico já está com as temperaturas de superfície bem acima dos 3 °C, em relação as séries históricas. Como iremos ver nos impactos a seguir, esse superaquecimento e fenômeno sem precedentes, já era conhecido por afetar a circulação atmosférica e vem causando uma série de estragos e prejuízos em todo o Brasil. 
 
@@ -62,7 +62,7 @@ Imagem do dia 9 de Novembro, 4 dias após o evento.
 #### Regime de Seca
 A região agreste de Pernambuco vem sofrendo com a seca e diversos municípios já decretaram situação de emergência. Segundo a ANA, 25% do território de pernambuco já sofre com as secas 
 
-### <!--{ projection="EPSG:3857" layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}},{"type":"Vector","properties":{"id":"seca-nordeste"},"source":{"type":"Vector","url":"/assets/seca/nordeste_seca_out26.geojson","format":"GeoJSON"},"style":{"fill-color":["match",["get","severidade"],"S0","rgba(255,255,0,0.7)","S1","rgba(252,211,127,0.7)","S2","rgba(255,170,0,0.7)","S3","rgba(230,0,0,0.7)","rgba(0,0,0,0)"],"stroke-color":"rgba(80,80,80,0.6)","stroke-width":0.5}}]' center=[-64,-9.7] zoom="5" animationOptions="{duration:1500}" }-->
+### <!--{ projection="EPSG:3857" layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}},{"type":"Vector","properties":{"id":"seca-nordeste"},"source":{"type":"Vector","url":"assets/seca/nordeste_seca_out26.geojson","format":"GeoJSON"},"style":{"fill-color":["match",["get","severidade"],"S0","rgba(255,255,0,0.7)","S1","rgba(252,211,127,0.7)","S2","rgba(255,170,0,0.7)","S3","rgba(230,0,0,0.7)","rgba(0,0,0,0)"],"stroke-color":"rgba(80,80,80,0.6)","stroke-width":0.5}}]' center=[-64,-9.7] zoom="5" animationOptions="{duration:1500}" }-->
 #### Severidade da seca no Nordeste – Outubro de 2026
 
 S0 – Seca fraca (amarelo) · S1 – Seca moderada (laranja claro) · S2 – Seca grave (laranja) · S3 – Seca extrema (vermelho)
@@ -76,16 +76,16 @@ Vamos olhar de perto o município de Panelas, no Agreste pernambucano, e entende
 ## Entendendo a seca em Panelas - PE
 
 ### Entendendo o regime de seca
-![Déficit de precipitação mês a mês em Panelas](/assets/panelas/panelas_deficit_mes_a_mes.png) <!--{ style="width: 100%; max-width: 720px; display: block; margin: 1rem auto;" }-->
+![Déficit de precipitação mês a mês em Panelas](assets/panelas/panelas_deficit_mes_a_mes.png) <!--{ style="width: 100%; max-width: 720px; display: block; margin: 1rem auto;" }-->
 Quando calculamos as precipitações baseada nas séries climatológicas, descobrimos que o ano de 2026 começou com precipitações acima das médias para o mês de Fevereiro, Março e Abril. Contudo, como as estações chuvosas nessa parte do território costumam ir de março até setembro, desde Maio está sendo registrado um déficit hídrico na região. 
 
 ### Acumulando a precipitação
-![Desvio acumulado da precipitação em 2026 em Panelas](/assets/panelas/panelas_2026_cumulative_departure.png) <!--{ style="width: 100%; max-width: 720px; display: block; margin: 1rem auto;" }-->
+![Desvio acumulado da precipitação em 2026 em Panelas](assets/panelas/panelas_2026_cumulative_departure.png) <!--{ style="width: 100%; max-width: 720px; display: block; margin: 1rem auto;" }-->
 Ao olharmos o desvio acumulado de precipitação conseguimos visualizar de forma mais clara que o ínicio do ano começou com volumes de chuva acima da média climatológica, mas a partir do dia 13 de maio, é possível entender que o déficit hídrico se inicia. Calculamos que há 126 mm de chuva a menos comparado com as normais climatólogicas e a região de Panelas já se encontra há 172 dias em situação de déficit hídrico.
 
 
 ### Índice SPI
-![SPI-6 de Panelas desde 1980](/assets/panelas/panelas_spi6_1980.png) <!--{ style="width: 100%; max-width: 720px; display: block; margin: 1rem auto;" }-->
+![SPI-6 de Panelas desde 1980](assets/panelas/panelas_spi6_1980.png) <!--{ style="width: 100%; max-width: 720px; display: block; margin: 1rem auto;" }-->
 O Índice Padronizado de Precipitação (SPI – Standardized Precipitation Index) permite avaliar, de forma estatística, o quanto a precipitação acumulada se desvia das condições climatológicas habituais. Valores negativos indicam precipitação abaixo da média histórica, enquanto valores positivos representam condições mais húmidas que o normal. No gráfico, o SPI-6 representa o comportamento da precipitação acumulada ao longo de seis meses, permitindo identificar episódios de seca meteorológica e avaliar a sua intensidade e persistência.
 
 As áreas sombreadas em alaranjado correspondem aos períodos de ocorrência do fenómeno El Niño. A sua representação permite observar a possível relação temporal entre esse fenómeno climático e os episódios de seca registados em Panelas (PB). Nota-se que alguns períodos de El Niño coincidem com episódios de SPI negativo, sugerindo uma possível influência na redução das chuvas na região. Contudo, essa coincidência temporal não estabelece, por si só, uma relação direta de causalidade, uma vez que o regime pluviométrico do Nordeste brasileiro também é condicionado por outros factores oceânicos e atmosféricos.
