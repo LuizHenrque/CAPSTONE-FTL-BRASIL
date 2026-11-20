@@ -10,6 +10,8 @@
     "vite": "^8.3.6"
   },
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build && cp elnino.md dist/ && cp -r assets dist/",
+    "preview": "vite preview"
   }
 }
