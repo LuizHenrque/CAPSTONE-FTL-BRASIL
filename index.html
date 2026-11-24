@@ -1,12 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FTL Brasil</title>
+  <meta name="description" content="Explore dados, mapas e histórias sobre os eventos extremos no Brasil em 2026 e suas possíveis relações com o El Niño. Um projeto do Future Tech Leaders Brasil.">
+  <meta name="theme-color" content="#071e2b">
+  <link rel="stylesheet" href="./hero.css">
+  <title>Eventos extremos no Brasil em 2026 | FTL Brasil</title>
 </head>
 <body>
-  <eox-storytelling id="story" markdown-url="elnino.md"></eox-storytelling>
+  <header class="climate-hero">
+    <div class="hero-shell">
+      <div class="hero-topline">
+        <p class="hero-program">Future Tech Leaders <span>Brasil</span></p>
+        <p class="hero-edition">Space Tech Bootcamp <span>2026</span></p>
+      </div>
+
+      <div class="hero-stage">
+        <div class="hero-copy">
+          <p class="hero-eyebrow">Um olhar sobre o nosso clima</p>
+          <h1 class="hero-title">Eventos<br>extremos<span class="hero-title-context">no Brasil em <strong>2026</strong></span></h1>
+          <p class="hero-description">Uma jornada por dados, mapas e histórias para compreender os eventos extremos e suas possíveis relações com o El Niño.</p>
+          <a class="hero-cta" href="#conteudo">Explorar o estudo</a>
+          <p class="hero-reading">Do Pacífico às diferentes regiões do Brasil.</p>
+        </div>
+
+        <figure class="hero-map">
+          <div class="hero-map-heading">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 6.5h14M5 17.5h14"/></svg>
+            <span>Oceano Pacífico · El Niño</span>
+          </div>
+          <div class="hero-map-viewport">
+            <img class="hero-map-image" src="./assets/fotos_reportagens/capa_provisoria.png" width="1200" height="654" alt="Ilustração do aquecimento das águas do Pacífico Equatorial, em direção à América do Sul." fetchpriority="high">
+          </div>
+          <figcaption class="hero-map-caption">
+            <span>Um fenômeno no oceano.<br><strong>Impactos que chegam à terra.</strong></span>
+            <span class="hero-map-label">Imagem ilustrativa</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="hero-partners">
+      <div class="hero-shell hero-partners-inner">
+        <p>Ciência e tecnologia para<br><strong>entender um Brasil em transformação.</strong></p>
+        <div class="hero-partners-logos" role="img" aria-label="Future Tech Leaders, Agência Espacial Brasileira, SDG AI Lab, ICPSD e PNUD">
+          <img src="./assets/fotos_reportagens/capa_provisoria.png" width="1200" height="654" alt="" aria-hidden="true">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo" class="story-content" tabindex="-1" aria-label="Estudo sobre eventos extremos no Brasil">
+    <eox-storytelling id="story" markdown-url="elnino.md"></eox-storytelling>
+  </main>
 
   <script type="module">
     import "@eox/storytelling";

@@ -1,6 +1,3 @@
-# Hero Section <!--{ as="image" mode="hero" src="assets/fotos_reportagens/capa_provisoria.png" }-->
-#### Eventos Extremos no Brasil em 2026 <!--{ style="font-size:5rem;opacity:0.7;margin-top:1rem;" }-->
-
 ## Eventos Extremos no Brasil em 2026
 
 Mensurar os impactos do El Nino não é uma tarefa trivial, pois a correlação entre os eventos extremos e a causalidade do fenômeno do El Nino e demanda de mais estudos com suas devidas nuances a serem avaliadas.  
