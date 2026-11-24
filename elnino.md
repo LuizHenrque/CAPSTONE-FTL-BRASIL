@@ -88,7 +88,63 @@ Ao olharmos o desvio acumulado de precipitação conseguimos visualizar de forma
 ![SPI-6 de Panelas desde 1980](assets/panelas/panelas_spi6_1980.png) <!--{ style="width: 100%; max-width: 720px; display: block; margin: 1rem auto;" }-->
 O Índice Padronizado de Precipitação (SPI – Standardized Precipitation Index) permite avaliar, de forma estatística, o quanto a precipitação acumulada se desvia das condições climatológicas habituais. Valores negativos indicam precipitação abaixo da média histórica, enquanto valores positivos representam condições mais húmidas que o normal. No gráfico, o SPI-6 representa o comportamento da precipitação acumulada ao longo de seis meses, permitindo identificar episódios de seca meteorológica e avaliar a sua intensidade e persistência.
 
-As áreas sombreadas em alaranjado correspondem aos períodos de ocorrência do fenómeno El Niño. A sua representação permite observar a possível relação temporal entre esse fenómeno climático e os episódios de seca registados em Panelas (PB). Nota-se que alguns períodos de El Niño coincidem com episódios de SPI negativo, sugerindo uma possível influência na redução das chuvas na região. Contudo, essa coincidência temporal não estabelece, por si só, uma relação direta de causalidade, uma vez que o regime pluviométrico do Nordeste brasileiro também é condicionado por outros factores oceânicos e atmosféricos.
+As áreas sombreadas em alaranjado correspondem aos períodos de ocorrência do fenómeno El Niño. A sua representação permite observar a possível relação temporal entre esse fenómeno climático e os episódios de seca registados em Panelas (PE). Nota-se que alguns períodos de El Niño coincidem com episódios de SPI negativo, sugerindo uma possível influência na redução das chuvas na região. Contudo, essa coincidência temporal não estabelece, por si só, uma relação direta de causalidade, uma vez que o regime pluviométrico do Nordeste brasileiro também é condicionado por outros factores oceânicos e atmosféricos.
+
+
+## El Niño na Paraíba em 2026 <!--{ as="eox-map" class="overlay-br" mode="tour" }-->
+
+### <!--{ projection="EPSG:3857" layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}},{"type":"Vector","properties":{"id":"paraiba"},"source":{"type":"Vector","url":"assets/paraiba/limite_paraiba_ibge.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(230,130,40,0.12)","stroke-color":"#b45309","stroke-width":3}}]' zoomExtent=[-4315323,-927111,-3874218,-672331] animationOptions="{duration:1000,padding:[50,24,180,24]}" }-->
+#### Um fenômeno no Pacífico, efeitos na Paraíba
+
+O El Niño envolve o aquecimento anormal das águas do Pacífico Equatorial e mudanças na circulação atmosférica. Essa combinação pode favorecer calor e redução de chuvas em áreas do Nordeste. A resposta varia entre regiões e épocas do ano, e também depende do Atlântico Tropical. Por isso, precisamos olhar para a Paraíba em diferentes escalas. [Fonte: INMET, 13/11/2026](https://portal.inmet.gov.br/noticias/el-ni%C3%B1o-deve-atingir-sua-intensidade-m%C3%A1xima-no-trimestre-novembro-dezembro-janeiro-e-deve-persistir-at%C3%A9-o-outono-de-2027).
+
+*O contorno localiza a Paraíba; a cor não indica intensidade de seca. Limite estadual: [IBGE, malha simplificada](https://servicodados.ibge.gov.br/api/v3/malhas/estados/25?formato=application/vnd.geo%2Bjson&qualidade=minima).* <!--{ style="font-size: 0.9rem;" }-->
+
+### <!--{ projection="EPSG:3857" layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}},{"type":"Vector","properties":{"id":"paraiba"},"source":{"type":"Vector","url":"assets/paraiba/limite_paraiba_ibge.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(230,130,40,0.12)","stroke-color":"#b45309","stroke-width":3}}]' center=[-37.25,-7.15] zoom="9" animationOptions="{duration:1500}" }-->
+#### Sertão e Cariri: calor e pressão sobre a água
+
+Na reportagem do g1 de 26 de julho, a meteorologista Morgana Almeida, do INSA, apontava o Sertão e o Cariri como áreas especialmente expostas ao aumento do calor e à baixa umidade. Como o segundo semestre já inclui meses de estiagem, a preocupação era a intensificação dessas condições.
+
+Temperaturas mais altas podem aumentar a evaporação nos reservatórios e a demanda por água e energia. Isso representa um risco para o abastecimento, mas não comprova, por si só, falta de água ou perdas já ocorridas em cada município. [Fonte: g1 PB, 26/07/2026](https://g1.globo.com/pb/paraiba/noticia/2026/07/26/el-nino-2026-entenda-como-o-fenomeno-climatico-deve-afetar-a-paraiba.ghtml).
+
+### <!--{ projection="EPSG:3857" layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}},{"type":"Vector","properties":{"id":"paraiba"},"source":{"type":"Vector","url":"assets/paraiba/limite_paraiba_ibge.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(230,130,40,0.12)","stroke-color":"#b45309","stroke-width":3}}]' center=[-35.5,-7.05] zoom="9" animationOptions="{duration:1500}" }-->
+#### Litoral, Brejo e Agreste: atenção ao calendário das chuvas
+
+No leste do estado, é importante considerar as chuvas de outono e inverno. O boletim divulgado pelo INSA em 8 de julho previa precipitação abaixo da média no leste da Paraíba entre julho e setembro de 2026, além de temperaturas acima da média no Nordeste. Essa era uma previsão para o trimestre, que deve ser comparada com os registros observados.
+
+Menos chuva no acumulado também não elimina temporais localizados: sistemas como os Distúrbios Ondulatórios de Leste podem provocar episódios intensos. [Fonte: INSA, 08/07/2026](https://www.gov.br/insa/pt-br/assuntos/noticias/ultimas-noticias/el-nino-deve-reduzir-chuvas-e-elevar-temperaturas-no-nordeste-entre-julho-e-setembro-aponta-boletim-climatico).
+
+## Paraíba: o que os dados de 2026 mostram
+
+### Setembro mais seco não significa um ano inteiro de déficit
+
+Os registros da AESA mostram chuva abaixo da média em todas as regiões pluviométricas da Paraíba em **setembro de 2026**. A tabela apresenta médias regionais, não valores de uma única cidade.
+
+| Região | Chuva (mm) | Desvio (mm) |
+|---|---:|---:|
+| Litoral | 46,9 | -20,4 |
+| Brejo | 17,7 | -24,6 |
+| Agreste | 15,0 | -13,3 |
+| Curimataú | 2,6 | -3,1 |
+| Cariri | 1,3 | -4,8 |
+| Sertão | 0,1 | -2,1 |
+| Alto Sertão | 1,8 | -2,6 |
+
+*Desvio = chuva observada menos a referência climatológica. Fonte: [AESA/PBCLIMA, páginas 5–7](https://www.aesa.pb.gov.br/assets/uploads/2026/11/Boletim-Climatico-Mensal_PBCLIMA_AESA_OUTUBRO_2026.pdf). Apesar do nome “OUTUBRO” no arquivo, o texto e as figuras analisam setembro de 2026.*
+
+Já no acumulado de **janeiro a setembro**, o Agreste estava 39,1% acima da média e o Litoral, 23,5% acima; o Cariri registrava déficit de 6,0%. Assim, um mês com pouca chuva não permite concluir que todo o estado passou o ano em seca. Esses dados descrevem a precipitação e não isolam a contribuição do El Niño.
+
+### Água, produção rural e prevenção
+
+Para quem depende da chuva e dos açudes, uma estiagem prolongada pode dificultar o cultivo, a manutenção das pastagens e a criação de animais. A publicação do [Geografia da Paraíba, de 15/06/2026](https://www.facebook.com/GeografiaPB/posts/voc%C3%AA-sabia-que-a-chegada-de-um-poss%C3%ADvel-super-el-ni%C3%B1o-preocupa-pesquisadores-e-g/1020553050369378/) chama atenção para essa vulnerabilidade. São riscos a acompanhar, e não um levantamento de prejuízos agrícolas de 2026.
+
+O planejamento estadual também já considera reservatórios, estiagem, ondas de calor e incêndios. Em outubro, o Corpo de Bombeiros informou sua participação na preparação de uma resposta conjunta entre órgãos públicos, com base em perspectivas da AESA de condições mais quentes, secas e de chuvas irregulares. [Fonte: CBMPB, 05/10/2026](https://bombeiros.pb.gov.br/2026/10/05/cbmpb-participa-de-planejamento-estadual-para-resposta-a-possiveis-impactos-do-el-nino/).
+
+### O que acompanhar na passagem para 2027
+
+Na atualização de **13 de novembro de 2026**, o INMET apontava o pico do fenômeno para novembro de 2026 a janeiro de 2027, com enfraquecimento posterior. O possível retorno à neutralidade no outono de 2027 não garante normalização imediata das chuvas. Para a Paraíba, isso reforça a necessidade de acompanhar a próxima estação chuvosa e a situação dos reservatórios. [Fonte: INMET, 13/11/2026](https://portal.inmet.gov.br/noticias/el-ni%C3%B1o-deve-atingir-sua-intensidade-m%C3%A1xima-no-trimestre-novembro-dezembro-janeiro-e-deve-persistir-at%C3%A9-o-outono-de-2027).
+
+Esta contribuição reúne **observações de chuva e riscos previstos**, com fontes consultadas em **24/11/2026**. Para atribuir um evento específico ao El Niño, seria necessário um estudo que avaliasse sua influência junto a outros fatores climáticos. O monitoramento pode ser acompanhado nos [boletins da AESA](https://www.aesa.pb.gov.br/boletins/).
 
 
 ## Queimadas na R1egião Amazônica
