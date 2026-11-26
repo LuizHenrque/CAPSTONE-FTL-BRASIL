@@ -53,11 +53,11 @@ Imagem Sentinel-2 no dia 23 de Setembro.
 Imagem do dia 9 de Novembro, 4 dias após o evento.
 
 
-## Seca na Região Agreste de Pernambuco <!--{ as="eox-map" class="overlay-br" mode="tour" }-->
+## Seca na Região Nordeste <!--{ as="eox-map" class="overlay-br" mode="tour" }-->
 
 ###  <!--{ projection="globe" layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}}]' center=[-46.13,-8.66] zoom="6" animationOptions="{duration:1000}" }-->
 #### Regime de Seca
-A região agreste de Pernambuco vem sofrendo com a seca e diversos municípios já decretaram situação de emergência. Segundo a ANA, 25% do território de pernambuco já sofre com as secas 
+A região agreste do país já sofre com diversas secas e muitos municípios decretaram situação de emergência. Segundo a ANA, 25% do território de pernambuco já sofre com as secas 
 
 ### <!--{ projection="EPSG:3857" layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}},{"type":"Vector","properties":{"id":"seca-nordeste"},"source":{"type":"Vector","url":"assets/seca/nordeste_seca_out26.geojson","format":"GeoJSON"},"style":{"fill-color":["match",["get","severidade"],"S0","rgba(255,255,0,0.7)","S1","rgba(252,211,127,0.7)","S2","rgba(255,170,0,0.7)","S3","rgba(230,0,0,0.7)","rgba(0,0,0,0)"],"stroke-color":"rgba(80,80,80,0.6)","stroke-width":0.5}}]' center=[-64,-9.7] zoom="5" animationOptions="{duration:1500}" }-->
 #### Severidade da seca no Nordeste – Outubro de 2026
@@ -66,34 +66,12 @@ S0 – Seca fraca (amarelo) · S1 – Seca moderada (laranja claro) · S2 – Se
 
 *Dados: Monitor de Secas (ANA), outubro de 2026, recortado para a região Nordeste (IBGE/geobr).* <!--{ style="opacity: 0.7; font-size: 0.85rem;" }-->
 
-### <!--{ projection="EPSG:3857" layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}},{"type":"Tile","properties":{"id":"customId"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025"}}]' center=[-36.01,-8.66] zoom="11" animationOptions="{duration:2000}" }-->
-#### Panelas – Agreste de Pernambuco
-Vamos olhar de perto o município de Panelas, no Agreste pernambucano, e entender como a chuva se comportou em 2026.
-
-## Entendendo a seca em Panelas - PE
-
-### Entendendo o regime de seca
-![Déficit de precipitação mês a mês em Panelas](assets/panelas/panelas_deficit_mes_a_mes.png) <!--{ style="width: 100%; max-width: 720px; display: block; margin: 1rem auto;" }-->
-Quando calculamos as precipitações baseada nas séries climatológicas, descobrimos que o ano de 2026 começou com precipitações acima das médias para o mês de Fevereiro, Março e Abril. Contudo, como as estações chuvosas nessa parte do território costumam ir de março até setembro, desde Maio está sendo registrado um déficit hídrico na região. 
-
-### Acumulando a precipitação
-![Desvio acumulado da precipitação em 2026 em Panelas](assets/panelas/panelas_2026_cumulative_departure.png) <!--{ style="width: 100%; max-width: 720px; display: block; margin: 1rem auto;" }-->
-Ao olharmos o desvio acumulado de precipitação conseguimos visualizar de forma mais clara que o ínicio do ano começou com volumes de chuva acima da média climatológica, mas a partir do dia 13 de maio, é possível entender que o déficit hídrico se inicia. Calculamos que há 126 mm de chuva a menos comparado com as normais climatólogicas e a região de Panelas já se encontra há 172 dias em situação de déficit hídrico.
-
-
-### Índice SPI
-![SPI-6 de Panelas desde 1980](assets/panelas/panelas_spi6_1980.png) <!--{ style="width: 100%; max-width: 720px; display: block; margin: 1rem auto;" }-->
-O Índice Padronizado de Precipitação (SPI – Standardized Precipitation Index) permite avaliar, de forma estatística, o quanto a precipitação acumulada se desvia das condições climatológicas habituais. Valores negativos indicam precipitação abaixo da média histórica, enquanto valores positivos representam condições mais húmidas que o normal. No gráfico, o SPI-6 representa o comportamento da precipitação acumulada ao longo de seis meses, permitindo identificar episódios de seca meteorológica e avaliar a sua intensidade e persistência.
-
-As áreas sombreadas em alaranjado correspondem aos períodos de ocorrência do fenómeno El Niño. A sua representação permite observar a possível relação temporal entre esse fenómeno climático e os episódios de seca registados em Panelas (PE). Nota-se que alguns períodos de El Niño coincidem com episódios de SPI negativo, sugerindo uma possível influência na redução das chuvas na região. Contudo, essa coincidência temporal não estabelece, por si só, uma relação direta de causalidade, uma vez que o regime pluviométrico do Nordeste brasileiro também é condicionado por outros factores oceânicos e atmosféricos.
-
-
 ## El Niño na Paraíba em 2026 <!--{ as="eox-map" class="overlay-br" mode="tour" }-->
 
 ### <!--{ projection="EPSG:3857" layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}},{"type":"Vector","properties":{"id":"paraiba"},"source":{"type":"Vector","url":"assets/paraiba/limite_paraiba_ibge.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(230,130,40,0.12)","stroke-color":"#b45309","stroke-width":3}}]' zoomExtent=[-4315323,-927111,-3874218,-672331] animationOptions="{duration:1000,padding:[50,24,180,24]}" }-->
-#### Um fenômeno no Pacífico, efeitos na Paraíba
+#### Um fenômeno no Pacífico com efeitos na Paraíba
 
-O El Niño envolve o aquecimento anormal das águas do Pacífico Equatorial e mudanças na circulação atmosférica. Essa combinação pode favorecer calor e redução de chuvas em áreas do Nordeste. A resposta varia entre regiões e épocas do ano, e também depende do Atlântico Tropical. Por isso, precisamos olhar para a Paraíba em diferentes escalas. [Fonte: INMET, 13/11/2026](https://portal.inmet.gov.br/noticias/el-ni%C3%B1o-deve-atingir-sua-intensidade-m%C3%A1xima-no-trimestre-novembro-dezembro-janeiro-e-deve-persistir-at%C3%A9-o-outono-de-2027).
+Já é entendendido que essa combinação pode favorecer calor e redução de chuvas em áreas do Nordeste. A resposta varia entre regiões e épocas do ano. Como os fenômenos são por si só interdepentendes, se faz necessário olhar para a Paraíba em diferentes escalas. [Fonte: INMET, 13/11/2026](https://portal.inmet.gov.br/noticias/el-ni%C3%B1o-deve-atingir-sua-intensidade-m%C3%A1xima-no-trimestre-novembro-dezembro-janeiro-e-deve-persistir-at%C3%A9-o-outono-de-2027).
 
 *O contorno localiza a Paraíba; a cor não indica intensidade de seca. Limite estadual: [IBGE, malha simplificada](https://servicodados.ibge.gov.br/api/v3/malhas/estados/25?formato=application/vnd.geo%2Bjson&qualidade=minima).* <!--{ style="font-size: 0.9rem;" }-->
 
@@ -105,13 +83,13 @@ Na reportagem do g1 de 26 de julho, a meteorologista Morgana Almeida, do INSA, a
 Temperaturas mais altas podem aumentar a evaporação nos reservatórios e a demanda por água e energia. Isso representa um risco para o abastecimento, mas não comprova, por si só, falta de água ou perdas já ocorridas em cada município. [Fonte: g1 PB, 26/07/2026](https://g1.globo.com/pb/paraiba/noticia/2026/07/26/el-nino-2026-entenda-como-o-fenomeno-climatico-deve-afetar-a-paraiba.ghtml).
 
 ### <!--{ projection="EPSG:3857" layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}},{"type":"Vector","properties":{"id":"paraiba"},"source":{"type":"Vector","url":"assets/paraiba/limite_paraiba_ibge.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(230,130,40,0.12)","stroke-color":"#b45309","stroke-width":3}}]' center=[-35.5,-7.05] zoom="9" animationOptions="{duration:1500}" }-->
-#### Litoral, Brejo e Agreste: atenção ao calendário das chuvas
+#### Litoral, Brejo e Agreste
 
 No leste do estado, é importante considerar as chuvas de outono e inverno. O boletim divulgado pelo INSA em 8 de julho previa precipitação abaixo da média no leste da Paraíba entre julho e setembro de 2026, além de temperaturas acima da média no Nordeste. Essa era uma previsão para o trimestre, que deve ser comparada com os registros observados.
 
 Menos chuva no acumulado também não elimina temporais localizados: sistemas como os Distúrbios Ondulatórios de Leste podem provocar episódios intensos. [Fonte: INSA, 08/07/2026](https://www.gov.br/insa/pt-br/assuntos/noticias/ultimas-noticias/el-nino-deve-reduzir-chuvas-e-elevar-temperaturas-no-nordeste-entre-julho-e-setembro-aponta-boletim-climatico).
 
-## Paraíba: o que os dados de 2026 mostram
+## Paraíba e o que os dados de 2026 mostram
 
 ### Setembro mais seco não significa um ano inteiro de déficit
 
@@ -144,18 +122,12 @@ Na atualização de **13 de novembro de 2026**, o INMET apontava o pico do fenô
 Esta contribuição reúne **observações de chuva e riscos previstos**, com fontes consultadas em **24/11/2026**. Para atribuir um evento específico ao El Niño, seria necessário um estudo que avaliasse sua influência junto a outros fatores climáticos. O monitoramento pode ser acompanhado nos [boletins da AESA](https://www.aesa.pb.gov.br/boletins/).
 
 
-## Queimadas na R1egião Amazônica
-Continuar daqui as queimadas na amazônia.
-
-### Onde? Como verificar? Quem? 
-
 ## Agradecimentos
 
 Este trabalho é resultado do projeto final apresentado no programa Future Tech Leaders Brasil. Feito em parceria pelos estudantes:
 - Luiz Henrique Araújo de Brito 
 - Mariana Lebrão Murauskas
 - Lucas Sousa Costa
-- Laissa P.
 - Gabrielle Vasconcelos de Mendonça Penha
 - Laíne Reis de Moura
 - Flávio Arthur Campos Figueira
