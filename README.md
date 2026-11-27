@@ -31,15 +31,6 @@ Escreva o impacto na sua região nesse lista!
 - Queimadas na zona de Manaus e no Pará.
 - Belford Roxo foi a extrema variação de temperatura ao longo do ano (verificar)
 
-## Contribuição sobre a Paraíba
-
-As seções **“El Niño na Paraíba em 2026”** e **“Paraíba: o que os dados de 2026 mostram”** foram adicionadas ao [storytelling](elnino.md), após o estudo de Panelas (PE) e antes das queimadas na Amazônia.
-
-- O mapa usa o [limite estadual simplificado da Paraíba](assets/paraiba/limite_paraiba_ibge.geojson), obtido da [API de malhas do IBGE](https://servicodados.ibge.gov.br/api/v3/malhas/estados/25?formato=application/vnd.geo%2Bjson&qualidade=minima), código de UF `25`, em 24/11/2026. O contorno apenas localiza o estado e não classifica a seca.
-- A tabela transcreve chuva e desvios regionais de **setembro de 2026** do [boletim da AESA/PBCLIMA](https://www.aesa.pb.gov.br/assets/uploads/2026/11/Boletim-Climatico-Mensal_PBCLIMA_AESA_OUTUBRO_2026.pdf), páginas 5–7. O nome do arquivo menciona outubro, mas o período analisado no documento é setembro.
-- O texto parte da reportagem do g1 PB e da publicação do Geografia da Paraíba, complementadas por fontes oficiais do INSA, INMET, AESA e CBMPB, com links junto às informações. As previsões incluem a atualização do INMET de 13/11/2026.
-- Os impactos sociais e econômicos são apresentados como riscos. A contribuição não estima perdas nem atribui automaticamente ao El Niño os desvios de chuva observados. Fontes consultadas em 24/11/2026.
-
 ## Coisas para fazer:
 
 - Eu recomendo vcs a escreverem o texto na mão ao invés de cegamente acreditar nas palavras de qualquer LLM. Isso também deixa o texto mais humanizado. 
