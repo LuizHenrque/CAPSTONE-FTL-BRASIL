@@ -144,10 +144,56 @@ Na atualização de **13 de novembro de 2026**, o INMET apontava o pico do fenô
 Esta contribuição reúne **observações de chuva e riscos previstos**, com fontes consultadas em **24/11/2026**. Para atribuir um evento específico ao El Niño, seria necessário um estudo que avaliasse sua influência junto a outros fatores climáticos. O monitoramento pode ser acompanhado nos [boletins da AESA](https://www.aesa.pb.gov.br/boletins/).
 
 
-## Queimadas na R1egião Amazônica
-Continuar daqui as queimadas na amazônia.
+## A região amazônica no mapa <!--{ as="eox-map" class="overlay-br" mode="tour" }-->
 
-### Onde? Como verificar? Quem? 
+### <!--{ projection="EPSG:3857" layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}},{"type":"Vector","properties":{"id":"bioma-amazonia"},"source":{"type":"Vector","url":"assets/amazonia/limite_bioma_amazonia_ibge.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(34,139,69,0.16)","stroke-color":"#15803d","stroke-width":2}},{"type":"Vector","properties":{"id":"localidades-amazonia"},"source":{"type":"Vector","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-64.8,-7.26]},"properties":{"nome":"Lábrea (AM)"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-54.71,-2.44]},"properties":{"nome":"Santarém (PA)"}}]},"style":{"circle-radius":7,"circle-fill-color":"#c2410c","circle-stroke-color":"white","circle-stroke-width":2,"text-value":["get","nome"],"text-font":"600 13px sans-serif","text-offset-y":-18,"text-fill-color":"#172b36","text-stroke-color":"white","text-stroke-width":3}}]' zoomExtent=[-8235750,-1881515,-4831188,587438] animationOptions="{duration:1000,padding:[50,24,180,24]}" }-->
+#### O bioma Amazônia no Brasil
+
+O contorno verde mostra a extensão do bioma Amazônia em território brasileiro. Os marcadores laranja localizam as sedes de Lábrea (AM) e Santarém (PA), usadas como referências geográficas no conteúdo sobre queimadas. Role a página para conhecer essas áreas mais de perto.
+
+*Limite do bioma: [IBGE (2019), disponibilizado pelo Ibama](https://pamgia.ibama.gov.br/server/rest/services/01_Publicacoes_Bases/biomas_ibge_250k_2019/FeatureServer/2), simplificado para visualização. Base cartográfica: OpenStreetMap.* <!--{ style="font-size: 0.85rem;" }-->
+
+### <!--{ projection="EPSG:3857" layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}},{"type":"Vector","properties":{"id":"bioma-amazonia"},"source":{"type":"Vector","url":"assets/amazonia/limite_bioma_amazonia_ibge.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(34,139,69,0.16)","stroke-color":"#15803d","stroke-width":2}},{"type":"Vector","properties":{"id":"localidades-amazonia"},"source":{"type":"Vector","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-64.8,-7.26]},"properties":{"nome":"Lábrea (AM)"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-54.71,-2.44]},"properties":{"nome":"Santarém (PA)"}}]},"style":{"circle-radius":7,"circle-fill-color":"#c2410c","circle-stroke-color":"white","circle-stroke-width":2,"text-value":["get","nome"],"text-font":"600 13px sans-serif","text-offset-y":-18,"text-fill-color":"#172b36","text-stroke-color":"white","text-stroke-width":3}}]' center=[-64.8,-7.26] zoom="8" animationOptions="{duration:1500}" }-->
+#### Lábrea, no sul do Amazonas
+
+O mapa aproxima Lábrea, município da fotografia que acompanha a seção seguinte. O ponto destaca a sede municipal para ajudar a localizar essa parte da Amazônia.
+
+### <!--{ projection="EPSG:3857" layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}},{"type":"Vector","properties":{"id":"bioma-amazonia"},"source":{"type":"Vector","url":"assets/amazonia/limite_bioma_amazonia_ibge.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(34,139,69,0.16)","stroke-color":"#15803d","stroke-width":2}},{"type":"Vector","properties":{"id":"localidades-amazonia"},"source":{"type":"Vector","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-64.8,-7.26]},"properties":{"nome":"Lábrea (AM)"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-54.71,-2.44]},"properties":{"nome":"Santarém (PA)"}}]},"style":{"circle-radius":7,"circle-fill-color":"#c2410c","circle-stroke-color":"white","circle-stroke-width":2,"text-value":["get","nome"],"text-font":"600 13px sans-serif","text-offset-y":-18,"text-fill-color":"#172b36","text-stroke-color":"white","text-stroke-width":3}}]' center=[-54.71,-2.44] zoom="8" animationOptions="{duration:1500}" }-->
+#### Santarém e o oeste do Pará
+
+A aproximação mostra Santarém, no encontro dos rios Tapajós e Amazonas. Essa é uma das áreas citadas na reportagem sobre o avanço das queimadas e da fumaça em comunidades e escolas do oeste paraense. [Fonte: InfoAmazonia, 17/11/2026](https://infoamazonia.org/2026/11/17/queimadas-chegam-mais-tarde-na-amazonia-mas-novembro-ja-supera-2023-com-influencia-do-el-nino/).
+
+## Queimadas na Região Amazônica
+
+Na Amazônia, o El Niño pode reduzir as chuvas e intensificar a seca, deixando a vegetação mais vulnerável ao fogo. As queimadas têm origem predominantemente humana, como no uso do fogo para limpar áreas; o clima mais seco favorece a propagação das chamas.
+
+![Árvores cercadas por fumaça e chamas na floresta amazônica em Lábrea, Amazonas](assets/fotos_reportagens/queimadas-amazonia-labrea.jpg) <!--{ loading="lazy" decoding="async" style="width: 100%; max-width: 1000px; height: auto; display: block; margin: 1.5rem auto 0.5rem;" }-->
+
+*Queimada às margens da BR-230, em Lábrea (AM), em 4 de setembro de 2024. Foto: Edmar Barros / [Amazônia Latitude](https://www.amazonialatitude.com/2025/01/29/el-nino-impacto-seca-aguas-subterraneas-amazonia-incendio-estudo/).* <!--{ style="font-size: 0.85rem;" }-->
+
+### A seca também acontece debaixo da terra
+
+Um estudo com dados de **2004 a 2016** relacionou as queimadas à redução da umidade do solo, da zona das raízes e das reservas subterrâneas. Os pesquisadores usaram dados da missão **GRACE** e observaram que essas reservas podem demorar mais a se recuperar após secas extremas. Monitorar apenas a chuva, portanto, não basta para entender a vulnerabilidade da floresta. [Fonte: Agência FAPESP, republicada pela Amazônia Latitude em 29/01/2025](https://www.amazonialatitude.com/2025/01/29/el-nino-impacto-seca-aguas-subterraneas-amazonia-incendio-estudo/).
+
+Esses resultados históricos ajudam a explicar o risco, mas não medem a contribuição do El Niño para cada incêndio de 2026.
+
+### O avanço do fogo em 2026
+
+Em **17 de novembro de 2026**, a InfoAmazonia relatou que chuvas prolongadas no primeiro semestre atrasaram a temporada de fogo, mas as queimadas ganharam força em novembro. No **Pará**, foram registrados **4.635 focos de calor nos primeiros dez dias de novembro**, contra **2.903 no mesmo período de 2023**, segundo a análise com dados do INPE. A reportagem também descreve incêndios próximos a comunidades e escolas no oeste do estado. [Fonte: InfoAmazonia, 17/11/2026](https://infoamazonia.org/2026/11/17/queimadas-chegam-mais-tarde-na-amazonia-mas-novembro-ja-supera-2023-com-influencia-do-el-nino/).
+
+### Fumaça e impactos na saúde
+
+A fumaça afeta tanto quem vive perto das chamas quanto populações distantes, pois os ventos transportam os poluentes. Ela contém partículas finas que podem agravar doenças respiratórias, como asma e bronquite, e aumentar o risco de problemas cardiovasculares. Crianças, idosos, gestantes e pessoas com doenças preexistentes estão entre os grupos mais vulneráveis.
+
+Nos dias de fumaça intensa, é importante reduzir a exposição, evitar atividades físicas ao ar livre e acompanhar as orientações dos serviços de saúde. [Fonte: Ministério da Saúde — Queimadas](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/q/queimadas/queimadas).
+
+### Onde acompanhar e quem atua?
+
+O [Programa Queimadas do INPE](https://data.inpe.br/queimadas/portal/) disponibiliza mapas, séries históricas e dados para consulta. Para localizar os registros, selecione o bioma Amazônia, o estado, o município e o intervalo de datas no painel de focos. Ao comparar anos, mantenha o mesmo período e a mesma série de satélite.
+
+**Um foco de calor não equivale necessariamente a um incêndio individual nem informa, sozinho, a área queimada.** Um incêndio pode gerar várias detecções, enquanto fogo pequeno ou encoberto pode não ser identificado. Os dados de focos devem ser analisados junto aos produtos de área queimada. [Entenda o monitoramento do INPE](https://data.inpe.br/queimadas/portal/faq/).
+
+O INPE produz informações para orientar a resposta, mas não fiscaliza nem combate o fogo. A prevenção e o combate dependem da atuação de órgãos ambientais, brigadistas e equipes locais. Acompanhar os alertas e evitar o uso irregular do fogo são medidas importantes para reduzir o risco durante a estiagem.
 
 ## Agradecimentos
 
